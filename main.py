@@ -1,13 +1,13 @@
-# Import from libraries
-import time
-from machine import Pin
+# Import libraries
+from machine import Pin # import Pin definitions
+import time # import timer library
 
-# Set the OUTPUT pin to on-board LED
-led = Pin("LED", Pin.OUT)
+# define GP16 as output pin
+redLED = Pin(16, Pin.OUT)
 
-# Runs forever
+# start loop
 while True:
-    led.on()              # Turn on LED
-    time.sleep(0.2)       # Delay for 0.2 seconds
-    led.off()             # Turn off LED
-    time.sleep(1.0)       # Delay for 1.0 seconds
+    redLED.on() # turn on red LED
+    time.sleep(0.3) # wait 0.3 seconds
+    redLED.off() # turn off red LED
+    time.sleep(0.8) # wait 0.8 second
