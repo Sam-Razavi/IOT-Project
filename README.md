@@ -90,4 +90,4 @@ The project was a rewarding experience, demonstrating how IoT technology can be 
 
 ## **License**
 
-This project is licensed under the MIT License and was 
+This project is licensed under the MIT License and was part of the course "Introduction to Applied Internet of Things" at Linnaeus University
